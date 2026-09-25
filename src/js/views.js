@@ -5,7 +5,7 @@ function projectCard(project) {
   return `
     <article class="card">
       <img
-        src=""
+        src="${project.image}"
         alt="${project.alt}"
         width="960"
         height="540"
